@@ -1,0 +1,31 @@
+/*
+description.ext
+Red Devils v21
+*/
+// https://community.bistudio.com/wiki/Description.ext
+
+// RESPAWN
+respawn = BASE;
+respawnDelay = 20;
+respawnButton = 0;
+respawnOnStart = 0; 
+//respawnTemplates[] = {"ace_spectator"}; 
+
+// MISSION INFORMATION
+author = "Red Devils Community"; 
+onLoadName = "Mission"; 
+onLoadMission = "Utrinque Paratus; Ready for Anything.";
+loadScreen = "pics\loading.jpg";
+
+class Header
+{
+	gameType = coop;    //https://community.bistudio.com/wiki/Multiplayer_Game_Types
+};
+
+// SETTINGS
+disabledAI = 1; // Always set this to 1
+debriefing = 0;
+showGPS = 0; // Always set this to 0
+enableEnvironment = [false, true];
+enableDebugConsole = 1; //Always set this to 1
+corpseManagerMode = 0;
